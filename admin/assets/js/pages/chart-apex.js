@@ -17,7 +17,7 @@ $(document).ready(function() {
                 stroke: {
                     curve: 'straight',
                 },
-                colors: ["#7267EF"],
+                colors: ["#00BFFF"],
                 series: [{
                     name: "Desktops",
                     data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
@@ -33,7 +33,7 @@ $(document).ready(function() {
                     },
                 },
                 xaxis: {
-                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+                    categories: ['Tháng 1','Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9'],
                 }
             }
 
@@ -98,7 +98,7 @@ $(document).ready(function() {
                 dataLabels: {
                     enabled: false
                 },
-                colors: ["#0e9e4a", "#7267EF", "#EA4D4D"],
+                colors: ["#0e9e4a", "#00BFFF", "#EA4D4D"],
                 stroke: {
                     show: true,
                     width: 2,
@@ -115,11 +115,11 @@ $(document).ready(function() {
                     data: [35, 41, 36, 26, 45, 48, 52]
                 }],
                 xaxis: {
-                    categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
+                    categories: ['Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8'],
                 },
                 yaxis: {
                     title: {
-                        text: '$ (thousands)'
+                        text: '(nghìn) đồng'
                     }
                 },
                 fill: {
@@ -129,7 +129,7 @@ $(document).ready(function() {
                 tooltip: {
                     y: {
                         formatter: function(val) {
-                            return "$ " + val + " thousands"
+                            return  val + " nghìn đồng"
                         }
                     }
                 }
@@ -154,7 +154,7 @@ $(document).ready(function() {
                         },
                     }
                 },
-                colors: ["#7267EF", "#0e9e4a"],
+                colors: ["#00BFFF", "#0e9e4a"],
                 dataLabels: {
                     enabled: true,
                     offsetX: -6,
@@ -192,7 +192,7 @@ $(document).ready(function() {
                 },
                 labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
                 series: [44, 55, 13, 43, 22],
-                colors: ["#7267EF", "#0e9e4a", "#3ec9d6", "#ffa21d", "#EA4D4D"],
+                colors: ["#00BFFF", "#0e9e4a", "#3ec9d6", "#ffa21d", "#EA4D4D"],
                 legend: {
                     show: true,
                     position: 'bottom',
@@ -225,7 +225,7 @@ $(document).ready(function() {
                     type: 'donut',
                 },
                 series: [44, 55, 41, 17, 15],
-                colors: ["#7267EF", "#0e9e4a", "#3ec9d6", "#ffa21d", "#EA4D4D"],
+                colors: ["#00BFFF", "#0e9e4a", "#3ec9d6", "#ffa21d", "#EA4D4D"],
                 legend: {
                     show: true,
                     position: 'bottom',

@@ -38,7 +38,7 @@ function floatchart() {
             dataLabels: {
                 enabled: false
             },
-            colors: ["#c7d9ff","#7267EF"],
+            colors: ["#c7d9ff","#00BFFF"],
             stroke: {
                 show: true,
                 width: 2,
@@ -52,7 +52,7 @@ function floatchart() {
                 data: [76, 85, 101, 98, 87, 105, 91]
             }],
             xaxis: {
-                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
+                categories: ['Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8'],
             },
             fill: {
                 opacity: 1
@@ -99,7 +99,7 @@ function floatchart() {
                     left: 0
                 },
             },
-            colors: ["#7267EF", "#7267EF"],
+            colors: ["#00BFFF", "#00BFFF"],
             fill: {
                 opacity: [1, 0.3]
             },
