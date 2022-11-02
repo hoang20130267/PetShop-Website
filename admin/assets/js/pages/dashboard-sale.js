@@ -30,7 +30,7 @@ function floatchart() {
                     enabled: true
                 }
             },
-            colors: ["#7267EF"],
+            colors: ["#00BFFF"],
             stroke: {
                 curve: 'smooth',
                 width: 2,
@@ -66,7 +66,7 @@ function floatchart() {
                     enabled: true
                 }
             },
-            colors: ["#7267EF"],
+            colors: ["#00BFFF"],
             plotOptions: {
                 bar: {
                     columnWidth: '70%'
@@ -120,20 +120,20 @@ function floatchart() {
                         columnWidth: '50%'
                     }
                 },
-                colors: ['#7267EF', '#c7d9ff'],
+                colors: ['#00BFFF', '#c7d9ff'],
                 series: [{
-                    name: 'Total Sales',
+                    name: 'Tổng doanh thu',
                     type: 'column',
                     data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30]
                 }, {
-                    name: 'Average',
+                    name: 'Trung bình',
                     type: 'line',
                     data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39]
                 }],
                 fill: {
                     opacity: [0.85, 1],
                 },
-                labels: ['01/01/2003', '02/01/2003', '03/01/2003', '04/01/2003', '05/01/2003', '06/01/2003', '07/01/2003', '08/01/2003', '09/01/2003', '10/01/2003', '11/01/2003'],
+                labels: ['01/01/2021', '02/01/2021', '03/01/2021', '04/01/2021', '05/01/2021', '06/01/2021', '07/01/2021', '08/01/2021', '09/01/2021', '10/01/2021', '11/01/2021'],
                 markers: {
                     size: 0
                 },
@@ -149,7 +149,7 @@ function floatchart() {
                     y: {
                         formatter: function(y) {
                             if (typeof y !== "undefined") {
-                                return "$ " +y.toFixed(0);
+                                return y.toFixed(0)+ " triệu đồng";
                             }
                             return y;
 
@@ -188,7 +188,7 @@ function floatchart() {
                 type: 'pie',
             },
             series: [66, 50, 40, 30],
-            labels: ["extremely Satisfied", "Satisfied", "Poor", "Very Poor"],
+            labels: ["Rất hài lòng", "Hài lòng", "Trung bình", "Tệ"],
             legend: {
                 show: true,
                 offsetY: 50,
@@ -202,7 +202,7 @@ function floatchart() {
             theme: {
                 monochrome: {
                     enabled: true,
-                    color: '#7267EF',
+                    color: '#00BFFF',
                 }
             },
             responsive: [{
