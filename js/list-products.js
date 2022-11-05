@@ -3,7 +3,7 @@ $(document).ready(async function(){
     function initRender() {
         for (var key in object) {
             var listProducts = object[key].map(function(element) {
-                return `href="product-detail.html">
+                return `
                     <div class="col-lg-4 col-md-6 col-sm-6 moreBox" style="display:none">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="${element.anh}" style="background-image: url(&quot;${element.anh}&quot;);">
