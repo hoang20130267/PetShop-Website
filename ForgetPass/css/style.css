@@ -225,3 +225,15 @@ h2 {
     opacity: 80%;
     border-color: #00bffe;
   }
+
+
+  .button_forgot {
+    width:  330px ;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #00bffe;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    margin: auto;
+  }
