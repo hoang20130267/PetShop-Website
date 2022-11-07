@@ -15,7 +15,7 @@ $(document).ready(async function(){
                         </div>
                         <div class="product__item__text">
                             <h6><a href="product-detail.html">${element.ten}</a></h6>
-                            <h5>${element.gia}</h5>
+                            <h5>${element.gia}đ</h5>
                         </div>
                     </div>
                 </div>`
@@ -40,7 +40,7 @@ $(document).ready(async function(){
                         </div>
                         <div class="product__item__text">
                             <h6><a href="product-details.html">${element.ten}</a></h6>
-                            <h5>${element.gia}</h5>
+                            <h5>${element.gia}đ</h5>
                         </div>
                     </div>
                 </div>`
@@ -65,7 +65,7 @@ $(document).ready(async function(){
                         </div>
                         <div class="product__item__text">
                             <h6><a href="product-details.html">${element.ten}</a></h6>
-                            <h5>${element.gia}</h5>
+                            <h5>${element.gia}đ</h5>
                         </div>
                     </div>
                 </div>`
@@ -90,7 +90,7 @@ $(document).ready(async function(){
                         </div>
                         <div class="product__item__text">
                             <h6><a href="product-details.html">${element.ten}</a></h6>
-                            <h5>${element.gia}</h5>
+                            <h5>${element.gia}đ</h5>
                         </div>
                     </div>
                 </div>`
