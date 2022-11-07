@@ -1138,7 +1138,7 @@ ol {
 	font-size: 16px;
 	color: #00BFFF;
 	font-weight: 700;
-	max-width: 20%;
+	max-width: 100px;
 	border: none;
 	display: inline-block;
 }
