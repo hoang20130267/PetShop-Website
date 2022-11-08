@@ -278,8 +278,8 @@
                         </div> -->
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">Quản lý sản phẩm</li>
-                            <li class="breadcrumb-item">Thú cưng</li>
-                            <li class="breadcrumb-item">Thêm thú cưng</li>
+                            <li class="breadcrumb-item">Phụ kiện</li>
+                            <li class="breadcrumb-item">Thêm phụ kiện</li>
                         </ul>
                     </div>
                 </div>
@@ -294,7 +294,7 @@
             <form class="mb-9">
               <div class="row g-3 flex-between-end mb-5">
                 <div class="col-auto">
-                  <h2 class="mb-2">Thêm thú cưng</h2>
+                  <h2 class="mb-2">Thêm phụ kiện</h2>
                   <!-- <h5 class="text-700 fw-semi-bold">
                     Orders placed across your store
                   </h5> -->
@@ -305,20 +305,20 @@
                   ><button class="btn btn-phoenix-primary me-2 mb-2 mb-sm-0">
                     Lưu dữ liệu</button
                   ><button class="btn btn-primary mb-2 mb-sm-0" type="submit">
-                    Đăng thú cưng
+                    Đăng phụ kiện
                   </button>
                 </div>
               </div>
-              <h4 class="mb-3">Tên thú cưng</h4>
+              <h4 class="mb-3">Tên phụ kiện</h4>
               <div class="row g-5">
                 <div class="col-12 col-xl-8">
                   <input
                     class="form-control mb-5"
                     type="text"
-                    placeholder="Viết tên thú cưng tại đây..."
+                    placeholder="Viết tên phụ kiện tại đây..."
                   />
                   <div class="mb-6">
-                    <h4 class="mb-3">Chi tiết thú cưng</h4>
+                    <h4 class="mb-3">Chi tiết phụ kiện</h4>
                     <textarea
                       class="tinymce"
                       name="content"
@@ -1178,46 +1178,7 @@
                           aria-labelledby="attributesTab"
                         >
                           <h5 class="mb-3 text-1000">Chi tiết</h5>
-                          <div class="form-check">
-                            <input
-                              class="form-check-input"
-                              id="fragileCheck"
-                              type="checkbox"
-                            /><label
-                              class="form-check-label text-900 fs-0"
-                              for="fragileCheck"
-                              >Chó</label
-                            >
-                          </div>
-                          <div class="form-check">
-                            <input
-                              class="form-check-input"
-                              id="biodegradableCheck"
-                              type="checkbox"
-                            /><label
-                              class="form-check-label text-900 fs-0"
-                              for="biodegradableCheck"
-                              >Mèo</label
-                            >
-                          </div>
-                          <div class="mb-3">
-                            <div class="form-check">
-                              <input
-                              class="form-check-input"
-                              id="biodegradableCheck"
-                              type="checkbox"
-                            /><label
-                              class="form-check-label text-900 fs-0"
-                              for="biodegradableCheck"
-                              >Phụ kiện</label
-                            ><input
-                                class="form-control"
-                                type="text"
-                                placeholder="Điền tên phụ kiện"
-                                style="max-width: 350px"
-                              />
-                            </div>
-                          </div>
+                          
                           <div class="form-check">
                             <input
                               class="form-check-input"
@@ -1227,7 +1188,7 @@
                             /><label
                               class="form-check-label text-900 fs-0"
                               for="productCheck"
-                              >Ngày nhập thú cưng</label
+                              >Ngày nhập phụ kiện</label
                             ><input
                               class="form-control inventory-attributes"
                               id="inventory"
@@ -1257,7 +1218,7 @@
                               </select>
                             </div>
                             <div class="col-12 col-lg-6">
-                              <h5 class="mb-2 text-1000">ID thú cưng</h5>
+                              <h5 class="mb-2 text-1000">ID phụ kiện</h5>
                               <input
                                 class="form-control"
                                 type="text"
@@ -1277,39 +1238,10 @@
                         <div class="card-body">
                           <h4 class="card-title mb-4">Danh mục</h4>
                           <div class="row">
+                           
                             <div class="col-12 col-sm-6 col-xl-12">
                               <div class="mb-4">
-                                <div class="d-flex flex-wrap justify-content-between mb-2">
-                                  <h5>Loại chó</h5><a class="fw-bold fs--1" href="#!">Thêm chủng loại mới</a>
-                                </div><select class="form-select mb-3" aria-label="category">
-                                  <option value="men-cloth">Không</option>
-                                  <option value="men-cloth">Chó Alaska</option>
-                                  <option value="women-cloth">Chó Beagle</option>
-                                  <option value="kid-cloth">Chó Corgi</option>
-                                  <option value="men-cloth">Chó Golden Retriever</option>
-                                  <option value="women-cloth">Chó Husky</option>
-                                  <option value="kid-cloth">Chó Phốc sóc</option>
-                                  
-                                </select>
-                              </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-12">
-                              <div class="mb-4">
-                                <div class="d-flex flex-wrap justify-content-between mb-2">
-                                  <h5>Loại mèo</h5><a class="fw-bold fs--1" href="#!">Thêm chủng loại mới</a>
-                                </div><select class="form-select mb-3" aria-label="category">
-                                  <option value="men-cloth">Không</option>
-                                  <option value="men-cloth">Mèo Anh</option>
-                                  <option value="women-cloth">Mèo lông ngắn</option>
-                                  <option value="kid-cloth">Mèo chân ngắn</option>
-                                  <option value="women-cloth">Mèo tai cụp</option>
-                                  <option value="kid-cloth">Mèo tam thể</option>
-                                </select>
-                              </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-12">
-                              <div class="mb-4">
-                                <h5 class="mb-2">Phụ kiện (nếu có)</h5><input class="form-control mb-3" type="text" placeholder="Phụ kiện">
+                                <h5 class="mb-2">Phụ kiện</h5><input class="form-control mb-3" type="text" placeholder="Phụ kiện">
                               </div>
                             </div>
                             <div class="col-12 col-sm-6 col-xl-12">
@@ -1317,8 +1249,7 @@
                                 <div class="d-flex flex-wrap justify-content-between mb-2">
                                   <h5>Tags</h5><a class="fw-bold fs--1" href="#!">Thêm tag mới</a>
                                 </div><select class="form-select" aria-label="category">
-                                  <option value="men-cloth">Chó</option>
-                                  <option value="women-cloth">Mèo</option>
+                                  <option value="men-cloth">Phụ kiện</option>
                                   
                                 </select>
                               </div>
@@ -1330,7 +1261,7 @@
                     <div class="col-12 col-xl-12">
                       <div class="card">
                         <div class="card-body">
-                          <h4 class="card-title mb-4">Kích cỡ thú cưng</h4>
+                          <h4 class="card-title mb-4">Kích cỡ phụ kiện</h4>
                           <div class="row">
                             <div class="col-12 col-sm-6 col-xl-12">
                               <div class="mb-4 border-dashed-bottom pb-4">
