@@ -3651,3 +3651,17 @@ ol {
 	right: -25px;
 	border-radius: 28px;
   }
+
+
+
+  .content_policy {
+	height: 2345px;
+	width: 1200px;
+	/* border: #000 solid 2px; */
+	margin-left: 12% ;
+
+  }
+
+  .content_policy p {
+	margin-bottom: 2px;
+  }
