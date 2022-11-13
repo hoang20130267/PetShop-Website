@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url(../bg.jpg);
+  background-image: url(../bg_login.jpg);
   background-size: 100vw;
   height: 100vh;
  }
@@ -184,7 +184,6 @@ h2 {
   pointer-events: none; }
 
 .control__indicator:after {
-  font-family: 'icomoon';
   content: '\e5ca';
   position: absolute;
   display: none;
@@ -239,7 +238,25 @@ h2 {
     margin: auto;
   }
 
+  .button_forgot {
+    width:  330px ;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #00bffe;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    margin: auto;
+  } 
+
   .button_login:hover {
     background-color: #00bffe;
     opacity: 80%;
+  }
+
+  p {
+    margin: 0px;
+    font-size: 16px;
+    color: #555;
+    display: block;
   }
